@@ -14,7 +14,7 @@ var cartitem = [ItemName:'ItemName']
  const price = Math.floor(Math.random()*100);
  cart.push({['ItemName']:price});
 
- console.log(`${item} has been added to your cart`)
+ console.log(`${ItemName} has been added to your cart`)
 
  return cart
 }
