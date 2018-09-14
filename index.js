@@ -14,5 +14,5 @@ var cartitem = {itemName: 'itemName'}
 var price = Math.round(Math.random()*100);
  cartitem.push(new Object({[itemName]:price}));
 
- console.log(`${item} has been added to your cart`)
+ console.log(`${cartitem} has been added to your cart`)
 }
